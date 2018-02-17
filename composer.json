@@ -1,0 +1,26 @@
+{
+    "name": "sankalani/test-php-unit-test",
+    "description": "my first unit testing",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "6.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SankalaniGIT\\testPhpUnitTest\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sankalaniGIT",
+            "email": "madushika.san1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
